@@ -1,0 +1,282 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Recursive', sans-serif;
+  }
+
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    padding-top: 30px;
+}
+
+main {
+    padding-top: 80px;
+    overflow: auto;
+}
+
+/*--header--*/
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #292A2B;
+    padding: 0px 24px;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+header .menu ul {
+    list-style: none;
+}
+
+header .menu ul li {
+    display: inline-block;
+    margin: 0px 12px;
+    padding: 10px;
+}
+
+header .menu a {
+    text-decoration: none;
+    color: azure;
+}
+
+header .menu ul li:hover {
+    background-color: #3d4550;
+    transition: 0.3s ease-in-out
+}
+
+header .menu {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: 80px;
+    width: 160px;
+}
+
+/*--intro--*/
+.intro {
+    background-image: url(./assets/bg1.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding: 190px 200px;
+    
+}
+
+/*--box--*/
+.box h1 {
+    text-align: left;
+    font-size: 67px;
+    padding-bottom: 0px;
+    font-family: 'Rowdies', cursive;
+}
+
+.box p {
+    font-size: 29px;
+    padding-bottom: 40px;
+}
+
+.box button {
+    padding: 12px 24px;
+    border-radius: 200px;
+    background: #f9e222;
+    cursor: pointer;
+    
+}
+
+.box button a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/*--Galery--*/
+.galery {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.galery-gambar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.galery-gambar img {
+    padding-bottom: 50px;
+    height: 300px;
+    width: 300px;
+}
+
+
+/*--contact--*/
+.contact{
+    background-color: burlywood;
+    color: azure;
+    padding: 50px;
+    padding-bottom: 10px;
+}
+
+.contact-i h3{
+    padding-bottom: 10px;
+}
+
+.contact-form{
+    color: #292A2B;
+    background-color: gainsboro;
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+    padding: 50px 50px;
+    margin: 0px 80px;
+    margin-bottom: 80px;
+}
+
+.form{
+    background-color: black;
+    padding: 15px;
+    width: 650px;
+    position: relative;
+    border-radius: 10px;
+}
+
+.form-i {
+    padding: 15px;
+    margin: 10px;
+    width: 600px;
+}
+
+.form-i:focus{
+    background: whitesmoke;
+    font-size: 15px;
+}
+
+input .form-i {
+    height: 50px;
+    border-radius: 25px;
+    padding: 0 30px;
+}
+
+textarea .form-i {
+    min-height: 150px;
+    border-radius: 25px;
+    padding: 12px 30px;
+}
+
+.form-b {
+    display: block;
+    margin: 0 auto;
+    min-width: 193px;
+    height: 50px;
+    border-radius: 25px;
+    background: #f9e222;
+    font-size: 20px;
+    color: black;
+    align-content: center;
+}
+
+.form-b:hover {
+    background: grey;
+}
+
+/*--footer--*/
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #292A2B;
+    padding: 0px 24px;
+    width: 100%;
+    color: azure;
+}
+
+footer button {
+    padding: 12px 24px;
+    border-radius: 200px;
+    background: #f9e222;
+    cursor: pointer;
+    
+}
+
+footer button a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/*-- table --*/
+input {
+    width: 15%;
+    font-size: 16px;
+    padding: 12px 20px 10px 10px;
+    border: 1px solid;
+    margin: 20px;
+}
+  
+table {
+    border-collapse: collapse;
+    width: 98%;
+    border: 1px solid;
+    font-size: 18px;
+    margin: 20px;
+}
+  
+table th, table td {
+    text-align: left;
+    padding: 12px;
+    border: solid;
+  }
+
+table tr.header, table tr:hover {
+    background-color: grey;
+  }
+
+table td button{
+    padding: 12px 24px;
+    background: skyblue;
+    cursor: pointer;
+}
+
+/*-- Artikel --*/
+article{
+    margin: 20px;
+}
+.content{
+    text-align: justify;
+    float: left;
+    width: 80%;
+    padding: 5px;
+    margin: 10px;
+    border: grey;
+    border-style: solid;
+}
+section img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 20px;
+    width: 50%;
+}
+
+aside {
+    float: right;
+    padding-right: 20px;
+    font-style: italic;
+    height: 100px;
+    background-color: lightgray;
+  }
